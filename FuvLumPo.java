@@ -1,0 +1,10 @@
+package flerovio.lund;
+
+public class FuvLumPo {
+    public static void main (String[] args){
+    
+            System.out.println("Hello World");
+        
+    }
+    
+}
