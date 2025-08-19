@@ -1,0 +1,15 @@
+   /*valores inteiros, negativos, positivos, caracteres e afins */
+        byte a; /* números pequenos de -128 até 127; 8 bits */
+        short b; /* números -32768 até 32767; 16 bits */
+        int c; /* números 2bi; 32 bits */
+        long d; /* valores enormes; 64 bits (8 bytes) */
+        
+        /* valores decimais */
+        float e; /* números com precisão menor */
+        double f; /* números com precisão maior */
+        
+        /* 0 ou 1, 0 falso e 1 verdadeiro */
+        boolean g; /* true ou false */
+        
+        /* apenas um unico caractere */
+        char h; /* 'a/?/k' */
