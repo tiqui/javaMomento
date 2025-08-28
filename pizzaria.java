@@ -28,8 +28,13 @@ public class pizzaria
 }
       
           
- 
+ /* Ex. 4) Em uma pizzaria, cada tulipa de chope custa R$1,80 e uma pizza mista grande custa R$25,00 mais R$ 3,50
+por tipo de cobertura pedida (queijo, presunto, banana, etc.). Uma turma vai à pizzaria e pede uma
+determinada quantidade de "chopes" e uma pizza grande com uma determinada quantidade de coberturas.
+Faca um programa que calcula a conta e, sabendo que a será informada a quantidade de pessoas, quanto
+que cada um deve pagar. Lembre-se dos 10% do garçom. */
     
     
     
     
+
