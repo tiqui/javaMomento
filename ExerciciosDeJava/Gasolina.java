@@ -1,4 +1,4 @@
-package flerovio.codigos;
+package X;
 import java.util.Scanner;
 public class Gasolina 
 {
@@ -6,22 +6,18 @@ public class Gasolina
     {
         Scanner entrada = new Scanner(System.in);
         int KMi=0, KMf=0;
-        double ValorGasolina=0;
+        double LitroGasolina=0;
         double MediaTotal=0.0;
-        
-        
-        
-        
+                               
         System.out.print("Km inicial: ");
         KMi = entrada.nextInt();
         System.out.print("Km final:");
         KMf = entrada.nextInt();
-        System.out.print("Quantos reais de gasolina: ");
-        ValorGasolina = entrada.nextInt();
-        
+        System.out.print("Quantos litros de gasolina: ");
+        LitroGasolina = entrada.nextDouble();
         
         /* consumo de combustivel */
-        MediaTotal = (KMf - KMi) / ValorGasolina;
+        MediaTotal = (KMf - KMi) / LitroGasolina;
         
         /* resultado */
         System.out.print("O valor total de km por litro: "+MediaTotal);
