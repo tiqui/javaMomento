@@ -1,0 +1,31 @@
+```
+package TestesRapidos;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+public class TesteGUI 
+{
+    public static void main(String[] args) {
+        
+        //Nome da Janela
+        JFrame janela = new JFrame("Login: Usuario e Senha");
+        
+        //JLabel é pra adicionar textos na janela
+        JLabel LabelUsuario = new JLabel("Usuario");
+        LabelUsuario.setBounds(50, 50, 100, 30); //.setBounds é pra adicionar as dimensoes da coisa (X, Y, Largura, Altura).
+        
+        JLabel LabelSenha = new JLabel("Senha");
+        LabelSenha.setBounds(50, 150, 100, 30);//.setBounds serve pra praticamente tudo que for adicionado.
+        
+        //JTextField serve pra escrever coisas dentro de uma caixa
+        JTextField CampoUser = new JTextField();
+        CampoUser.setBounds(50, 80, 150, 30);
+        
+        //Esse PasswordField serve pra Ocultar as coisas dentro da caixa
+        JPasswordField campoSenha = new JPasswordField();
+        campoSenha.setBounds(50, 180, 150, 30);
+```
