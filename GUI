@@ -1,5 +1,3 @@
-```
-package TestesRapidos;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import java.awt.event.ActionListener;
@@ -28,4 +26,36 @@ public class TesteGUI
         //Esse PasswordField serve pra Ocultar as coisas dentro da caixa
         JPasswordField campoSenha = new JPasswordField();
         campoSenha.setBounds(50, 180, 150, 30);
-```
+
+
+        
+        //Botao.
+        //Formato e Acao do botao.
+        JButton botaoLogin = new JButton("Login");
+        botaoLogin.setBounds(50, 210, 100, 30);
+        
+        //Adiciona uma ação ao apertar o botão.
+        botaoLogin.addActionListener(e -> {
+               String usuario = CampoUser.getText();
+               String senha = new String(campoSenha.getPassword());
+               System.out.printf("Usuario: %s\nSenha: %s", usuario, senha);
+        });
+        
+        //Adicione o elemento na sua JFrame, se não adicionar não vai aparecer.
+        janela.add(botaoLogin);
+        janela.add(LabelUsuario);
+        janela.add(CampoUser);
+        janela.add(campoSenha);
+        janela.add(LabelSenha);
+        
+        //Tipo do layout pra janela, você encontra no link anexado a postagem.
+        janela.setLayout(null);
+        
+        
+        //Janela, formato e comportamento
+        janela.setBounds(0, 0, 400, 300);
+        janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Pra quando voce apertar no X ela fechar de verdade.
+        janela.setVisible(true);//Pra janela aparecer na sua tela.
+                  
+    }
+}
