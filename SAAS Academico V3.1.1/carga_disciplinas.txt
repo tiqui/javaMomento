@@ -1,0 +1,4 @@
+POO2;Programação Orientada a Objetos II;30
+ES1;Engenharia de Software;40
+BD;Banco de Dados;25
+IA;Inteligência Artificial;20
